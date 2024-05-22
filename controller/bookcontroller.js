@@ -1,4 +1,4 @@
-const book = require("C:/Users/manth/OneDrive/Desktop/internship/models/bookmodel.js");
+const book = require("./../models/bookmodel.js");
 
 const errorfunct = function (message, code, res) {
   res.status(code).json({

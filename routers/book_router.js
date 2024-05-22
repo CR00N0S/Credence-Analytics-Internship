@@ -1,5 +1,5 @@
 const express = require("express");
-const bookcontroller = require("C:/Users/manth/OneDrive/Desktop/internship/controller/bookcontroller.js");
+const bookcontroller = require("./../controller/bookcontroller.js");
 
 const router = express.Router();
 
